@@ -1,11 +1,11 @@
 const { Worker } = require("worker_threads");
 
 /**
- * Notes:
+ * Behavior notes:
  *
- * on 'error':
+ * On 'error':
  *   e.g. from `throw new Error('...')`.
- *    e.g. from process.exit()
+ *   e.g. from process.exit()
  *
  * on 'exit'
  *   e.g. from process.exit()
@@ -31,7 +31,7 @@ function startWorker(worker) {
       console.error({ exitCode });
     }
 
-    process.exit(exitCode)
+    process.exit(exitCode);
   });
 }
 
