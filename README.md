@@ -7,7 +7,9 @@
 [![Made with Node.js](https://img.shields.io/badge/Node.js->=12-blue?logo=node.js&logoColor=white)](https://nodejs.org "Go to Node.js homepage")
 
 
-How to start one or more child threads within a parent thread, using functionality built into Node.
+This is a guide on how to start one or more child threads within a parent thread, using functionality built into Node.
+
+I've put some notes and demo scripts around Worker Threads here, based on a few tutorials and the documentation.
 
 
 ## Documentation
