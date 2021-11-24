@@ -7,9 +7,11 @@
 [![Made with Node.js](https://img.shields.io/badge/Node.js->=12-blue?logo=node.js&logoColor=white)](https://nodejs.org "Go to Node.js homepage")
 
 
+I've done research into Worker Threads in Node, to run tasks in parallel.
+
 This is a guide on how to start one or more child threads within a parent thread, using functionality built into Node.
 
-I've put some notes and demo scripts around Worker Threads here, based on a few tutorials and the documentation.
+This repo includes demo scripts you can run, plus some background notes and links to tutorials and documentation used.
 
 
 ## Documentation
