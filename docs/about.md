@@ -11,7 +11,7 @@ Node is single-threaded. This is great for IO tasks but not for CPU-bound tasks.
 
 ## Solutions
 
-One solution is to use the `worker_threads`, built-in module from Node 10 to achieve multiple threads. That is what this repo is about.
+One solution is to use the `worker_threads`, a built-in module from Node 12 (experimental in Node 10) to achieve multiple threads. That is what this repo is about.
 
 For local development, you might be fine just to use [concurrently](https://www.npmjs.com/package/concurrently), as you can start two tasks using a one-line change in your `package.json` commands, without changing your app code.
 
